@@ -1,0 +1,8 @@
+### Send POST request with json body
+POST http://172.16.0.170:5678/webhook-test/title_comparison
+Content-Type: application/json
+
+{
+  "web_title": "Aardwolf Archers – A Sheffield Target Archery Club",
+  "data_title": "Aardwolf Archers"
+}
